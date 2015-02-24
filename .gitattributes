@@ -1,0 +1,4 @@
+# Set default behaviour
+* text=auto
+
+*.js* text
