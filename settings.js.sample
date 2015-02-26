@@ -1,0 +1,13 @@
+module.exports = {
+  server: 'irc.network.org',
+  nick: 'myBot',
+  options: {
+    retryDelay: 30000,
+    channels: ['#myChannel']
+  },
+  handlers: {
+    '!activeServers': require('./lib/activeServers'),
+    '!emptyservers': require('./lib/emptyServers'),
+    '!findplayer': require('./lib/findPlayer')
+  }
+}
