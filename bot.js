@@ -1,5 +1,7 @@
 var irc = require('irc');
 
+var registry = require('./lib/registry');
+
 var client = new irc.Client('irc.quakenet.org', 'reflexDeBot', {
   debug: true,
   retryDelay: 30000,
