@@ -1,4 +1,4 @@
-module.exports = {
+var settings = {
   server: 'irc.network.org',
   nick: 'myBot',
   options: {
@@ -13,3 +13,7 @@ module.exports = {
   },
   reflexVersion: '42'
 };
+
+Object.keys(settings).forEach(function(key) {
+  module.exports[key] = settings[key];
+});
