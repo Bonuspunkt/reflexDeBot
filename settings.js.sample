@@ -8,6 +8,8 @@ module.exports = {
   handlers: {
     '!activeServers': require('./lib/activeServers'),
     '!emptyservers': require('./lib/emptyServers'),
-    '!findplayer': require('./lib/findPlayer')
-  }
-}
+    '!findplayer': require('./lib/findPlayer'),
+    '!query': require('./lib/query')
+  },
+  reflexVersion: '42'
+};
