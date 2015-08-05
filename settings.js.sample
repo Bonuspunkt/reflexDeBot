@@ -10,8 +10,7 @@ var settings = {
     '!emptyservers': require('./lib/emptyServers'),
     '!findplayer': require('./lib/findPlayer'),
     '!query': require('./lib/query')
-  },
-  reflexVersion: '42'
+  }
 };
 
 Object.keys(settings).forEach(function(key) {
