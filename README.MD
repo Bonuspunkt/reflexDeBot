@@ -1,5 +1,7 @@
 # #reflex.de Bot
 ## installation
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Bonuspunkt/reflexDeBot.svg)](https://greenkeeper.io/)
 - get [io.js](https://iojs.org)
 - clone repository or download
 - run `npm install` inside the directory
