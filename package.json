@@ -4,7 +4,7 @@
   "description": "bot running @ irc://irc.quakenet.org/reflex.de",
   "main": "bot.js",
   "dependencies": {
-    "irc": "^0.3.9",
+    "irc": "^0.5.2",
     "sandbox": "^0.8.6"
   },
   "devDependencies": {},
